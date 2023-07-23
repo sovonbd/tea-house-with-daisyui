@@ -41,11 +41,12 @@
     </style>
   </head>
   <body class="font-manrope">
+    <!-- header section -->
     <header class="container mx-auto">
       <div class="hero">
         <div class="hero-content flex-col lg:flex-row-reverse">
           <div>
-            <img src="/images/banner.png" class="max-w-screen-lg pt-10" />
+            <img src="/images/banner.png" class="lg:max-w-screen-lg pt-10" />
             <!-- rating badge -->
             <div
               class="flex gap-4 items-center bg-white shadow-lg rounded-md p-2 w-60 relative -mt-28 ml-24"
@@ -57,22 +58,97 @@
               </div>
             </div>
           </div>
-          <div>
-            <h1 class="text-7xl font-extrabold">
+          <div class="max-w-3xl my-5 mx-auto">
+            <h1 class="text-5xl lg:text-7xl font-extrabold">
               It's good <br />
               tea time at The <br />
               Tea House
             </h1>
             <p class="py-6">
-              Tea and Botanical Solutions Supplier Give Optimum Satisfaction To
-              Your Taste Buds.
+              Tea and Botanical Solutions Supplier Give Optimum <br />
+              Satisfaction To Your Taste Buds.
             </p>
             <button class="btn btn-primary">Explore More</button>
           </div>
         </div>
       </div>
     </header>
-    <main></main>
+
+    <!-- main section -->
+    <main class="container mx-auto px-4">
+
+      <!-- feature section -->
+      <section class="text-center my-24">
+        <h2 class="text-3xl lg:text-5xl font-extrabold">
+          Our Featured Products
+        </h2>
+        <p class="max-w-3xl my-5 mx-auto">
+          There are many variations of passages of Lorem Ipsum available, but
+          the majority have suffered alteration in some form, by injected
+          humour, or randomised words which don't look even slightly believable.
+        </p>
+        <!-- card container -->
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
+          <!-- first card -->
+          <div class="card bg-gradient-to-t from-[#fff] to-[#f4f4f49a] p-7">
+            <figure>
+              <img src="/images/tea-1.png" alt="Shoes" />
+            </figure>
+            <div class="card-body">
+              <h2 class="card-title justify-center text-2xl">Milk Tea</h2>
+              <p>Creamer could be replaced by fresh milk</p>
+              <div class="card-actions justify-center">
+                <button class="btn btn-primary">Buy Now</button>
+              </div>
+            </div>
+          </div>
+          <!-- second card -->
+          <div class="card bg-gradient-to-t from-[#fff] to-[#f4f4f49a] p-7">
+            <figure>
+              <img src="/images/tea-2.png" alt="Shoes" />
+            </figure>
+            <div class="card-body">
+              <h2 class="card-title justify-center text-2xl">Black Tea</h2>
+              <p>Creamer could be replaced by fresh milk</p>
+              <div class="card-actions justify-center">
+                <button class="btn btn-primary">Buy Now</button>
+              </div>
+            </div>
+          </div>
+          <!-- third card -->
+          <div class="card bg-gradient-to-t from-[#fff] to-[#f4f4f49a] p-7">
+            <figure>
+              <img src="/images/tea-3.png" alt="Shoes" />
+            </figure>
+            <div class="card-body">
+              <h2 class="card-title justify-center text-2xl">Lemon Tea</h2>
+              <p>Creamer could be replaced by fresh milk</p>
+              <div class="card-actions justify-center">
+                <button class="btn btn-primary">Buy Now</button>
+              </div>
+            </div>
+          </div>
+          <!-- fourth card -->
+          <div class="card bg-gradient-to-t from-[#fff] to-[#f4f4f49a] p-7">
+            <figure>
+              <img src="/images/tea-4.png" alt="Shoes" />
+            </figure>
+            <div class="card-body">
+              <h2 class="card-title justify-center text-2xl">Green Tea</h2>
+              <p>Creamer could be replaced by fresh milk</p>
+              <div class="card-actions justify-center">
+                <button class="btn btn-primary">Buy Now</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      
+      <section>
+
+      </section>
+    </main>
     <footer></footer>
   </body>
 </html>
